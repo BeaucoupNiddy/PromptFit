@@ -1,0 +1,11 @@
+ics>=0.7
+fit_tool>=0.9
+fitparse>=1.2.0
+garminconnect>=0.2.40,<0.3; python_version < "3.12"
+garminconnect>=0.3.5,<0.4; python_version >= "3.12"
+garth>=0.5.17
+keyring>=24.3
+fastapi>=0.110
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+requests>=2.31

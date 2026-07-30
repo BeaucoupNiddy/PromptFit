@@ -1,0 +1,1503 @@
+{
+  "plan_meta": {
+    "title": "Daniels-Method 2Q Marathon — 18 Weeks, 55 mi peak",
+    "goal": "Marathon",
+    "race_distance": "marathon",
+    "reference_peak_mileage": 55,
+    "summary": "Original 18-week two-quality-session marathon preset using Daniels E/M/T/I/R intensity concepts, peaking near 55 mi/week.",
+    "notes": "Original compatible implementation—not an official V.O2 plan and not a transcription of a paid Daniels schedule. Q1 is normally the long or marathon-specific workout; Q2 develops threshold, interval, or repetition economy. Set E, M, T, I, and R paces from a current VDOT or recent race.",
+    "source_title": "VDOT O2 Custom Training Plans",
+    "source_url": "https://vdoto2.com/custom-training-plans",
+    "official_schedule": false,
+    "days_per_week": 7,
+    "explicit_warmups": true,
+    "normalize_weekly_to_reference": false,
+    "range_distance_preference": "midpoint"
+  },
+  "weeks": [
+    {
+      "week": 1,
+      "phase": "Foundation",
+      "total_mileage": "40 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "2.9 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "name": "Q2 T Repeats — 9 mi",
+            "type": "tempo",
+            "segments": [
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace warm-up"
+              },
+              {
+                "distance": "5.2 mi",
+                "intensity": "4 × 1 mi at T pace"
+              },
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.5 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "distance": "2.9 mi",
+            "intensity": "E pace with 6 × 20 sec strides"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "2.9 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "2.8 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "name": "Q1 Long E — 15 mi",
+            "type": "long run",
+            "distance": "15 mi",
+            "intensity": "E pace"
+          }
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "phase": "Foundation",
+      "total_mileage": "43 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.4 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "name": "Q2 I Repeats — 9 mi",
+            "type": "interval",
+            "segments": [
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace warm-up"
+              },
+              {
+                "distance": "5.2 mi",
+                "intensity": "5 × 3 min at I pace"
+              },
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "5.3 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.4 mi",
+            "intensity": "E pace with 6 × 20 sec strides"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.4 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.5 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "name": "Q1 M Finish — 15 mi",
+            "type": "long run",
+            "segments": [
+              {
+                "distance": "3.5 mi",
+                "intensity": "E pace"
+              },
+              {
+                "distance": "8 mi",
+                "intensity": "Final 4 mi at M pace"
+              },
+              {
+                "distance": "3.5 mi",
+                "intensity": "E pace"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "phase": "Foundation",
+      "total_mileage": "46 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "4 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "name": "Q2 T Repeats — 9 mi",
+            "type": "tempo",
+            "segments": [
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace warm-up"
+              },
+              {
+                "distance": "5.2 mi",
+                "intensity": "3 × 2 mi at T pace"
+              },
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "6.2 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "distance": "4 mi",
+            "intensity": "E pace with 6 × 20 sec strides"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "4 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.8 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "name": "Q1 T + M — 15 mi",
+            "type": "long run",
+            "segments": [
+              {
+                "distance": "3.5 mi",
+                "intensity": "E pace"
+              },
+              {
+                "distance": "8 mi",
+                "intensity": "2 × 2 mi at T, then 4 mi at M"
+              },
+              {
+                "distance": "3.5 mi",
+                "intensity": "E pace"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "phase": "Foundation",
+      "total_mileage": "40 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "2.5 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "name": "Q2 R Repeats — 9 mi",
+            "type": "interval",
+            "segments": [
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace warm-up"
+              },
+              {
+                "distance": "5.2 mi",
+                "intensity": "10 × 200 m at R pace"
+              },
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.9 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "distance": "2.5 mi",
+            "intensity": "E pace with 6 × 20 sec strides"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "2.5 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "2.6 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "name": "Q1 Long E — 17 mi",
+            "type": "long run",
+            "distance": "17 mi",
+            "intensity": "E pace"
+          }
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "phase": "2Q Development",
+      "total_mileage": "48 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "4 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "name": "Q2 T Repeats — 9 mi",
+            "type": "tempo",
+            "segments": [
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace warm-up"
+              },
+              {
+                "distance": "5.2 mi",
+                "intensity": "5 × 1 mi at T pace"
+              },
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "6.2 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "distance": "4 mi",
+            "intensity": "E pace with 6 × 20 sec strides"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "4 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.8 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "name": "Q1 M Blocks — 17 mi",
+            "type": "long run",
+            "segments": [
+              {
+                "distance": "4 mi",
+                "intensity": "E pace"
+              },
+              {
+                "distance": "9 mi",
+                "intensity": "2 × 4 mi at M pace"
+              },
+              {
+                "distance": "4 mi",
+                "intensity": "E pace"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "phase": "2Q Development",
+      "total_mileage": "51 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.5 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "name": "Q2 I Repeats — 9 mi",
+            "type": "interval",
+            "segments": [
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace warm-up"
+              },
+              {
+                "distance": "5.2 mi",
+                "intensity": "6 × 3 min at I pace"
+              },
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "7 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.5 mi",
+            "intensity": "E pace with 6 × 20 sec strides"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.5 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.5 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "name": "Q1 Long E — 17 mi",
+            "type": "long run",
+            "distance": "17 mi",
+            "intensity": "E pace"
+          }
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "phase": "2Q Development",
+      "total_mileage": "53 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.9 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "name": "Q2 T Repeats — 9 mi",
+            "type": "tempo",
+            "segments": [
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace warm-up"
+              },
+              {
+                "distance": "5.2 mi",
+                "intensity": "2 × 3 mi at T pace"
+              },
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "7.6 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.9 mi",
+            "intensity": "E pace with 6 × 20 sec strides"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.9 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.7 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "name": "Q1 T + M — 17 mi",
+            "type": "long run",
+            "segments": [
+              {
+                "distance": "4 mi",
+                "intensity": "E pace"
+              },
+              {
+                "distance": "9 mi",
+                "intensity": "3 × 2 mi at T, then 4 mi at M"
+              },
+              {
+                "distance": "4 mi",
+                "intensity": "E pace"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "phase": "2Q Development",
+      "total_mileage": "43 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.1 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "name": "Q2 R Repeats — 9 mi",
+            "type": "interval",
+            "segments": [
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace warm-up"
+              },
+              {
+                "distance": "5.2 mi",
+                "intensity": "12 × 200 m at R pace"
+              },
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.8 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.1 mi",
+            "intensity": "E pace with 6 × 20 sec strides"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.1 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "2.9 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "name": "Q1 Long E — 17 mi",
+            "type": "long run",
+            "distance": "17 mi",
+            "intensity": "E pace"
+          }
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "phase": "2Q Development",
+      "total_mileage": "55 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "5.2 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "name": "Q2 T Repeats — 9 mi",
+            "type": "tempo",
+            "segments": [
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace warm-up"
+              },
+              {
+                "distance": "5.2 mi",
+                "intensity": "4 × 1.5 mi at T pace"
+              },
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "8.1 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "distance": "5.2 mi",
+            "intensity": "E pace with 6 × 20 sec strides"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "5.2 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "5.3 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "name": "Q1 M Blocks — 17 mi",
+            "type": "long run",
+            "segments": [
+              {
+                "distance": "4 mi",
+                "intensity": "E pace"
+              },
+              {
+                "distance": "9 mi",
+                "intensity": "2 × 5 mi at M pace"
+              },
+              {
+                "distance": "4 mi",
+                "intensity": "E pace"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "phase": "2Q Development",
+      "total_mileage": "51 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.5 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "name": "Q2 I Repeats — 9 mi",
+            "type": "interval",
+            "segments": [
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace warm-up"
+              },
+              {
+                "distance": "5.2 mi",
+                "intensity": "5 × 4 min at I pace"
+              },
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "7 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.5 mi",
+            "intensity": "E pace with 6 × 20 sec strides"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.5 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.5 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "name": "Q1 Long E — 17 mi",
+            "type": "long run",
+            "distance": "17 mi",
+            "intensity": "E pace"
+          }
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "phase": "2Q Development",
+      "total_mileage": "53 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.9 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "name": "Q2 T Repeats — 9 mi",
+            "type": "tempo",
+            "segments": [
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace warm-up"
+              },
+              {
+                "distance": "5.2 mi",
+                "intensity": "3 × 2 mi at T pace"
+              },
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "7.6 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.9 mi",
+            "intensity": "E pace with 6 × 20 sec strides"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.9 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.7 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "name": "Q1 T + M — 17 mi",
+            "type": "long run",
+            "segments": [
+              {
+                "distance": "4 mi",
+                "intensity": "E pace"
+              },
+              {
+                "distance": "9 mi",
+                "intensity": "2 × 3 mi at T, then 5 mi at M"
+              },
+              {
+                "distance": "4 mi",
+                "intensity": "E pace"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "phase": "2Q Development",
+      "total_mileage": "44 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.2 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "name": "Q2 R Repeats — 9 mi",
+            "type": "interval",
+            "segments": [
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace warm-up"
+              },
+              {
+                "distance": "5.2 mi",
+                "intensity": "8 × 400 m at R pace"
+              },
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "5 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.2 mi",
+            "intensity": "E pace with 6 × 20 sec strides"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.2 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.4 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "name": "Q1 Long E — 17 mi",
+            "type": "long run",
+            "distance": "17 mi",
+            "intensity": "E pace"
+          }
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "phase": "Marathon Specific",
+      "total_mileage": "55 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "5.2 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "name": "Q2 T Repeats — 9 mi",
+            "type": "tempo",
+            "segments": [
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace warm-up"
+              },
+              {
+                "distance": "5.2 mi",
+                "intensity": "5 × 1 mi at T pace"
+              },
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "8.1 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "distance": "5.2 mi",
+            "intensity": "E pace with 6 × 20 sec strides"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "5.2 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "5.3 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "name": "Q1 M Continuous — 17 mi",
+            "type": "long run",
+            "segments": [
+              {
+                "distance": "4 mi",
+                "intensity": "E pace"
+              },
+              {
+                "distance": "9 mi",
+                "intensity": "10–12 mi continuous at M pace"
+              },
+              {
+                "distance": "4 mi",
+                "intensity": "E pace"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "phase": "Marathon Specific",
+      "total_mileage": "50 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.3 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "name": "Q2 I Repeats — 9 mi",
+            "type": "interval",
+            "segments": [
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace warm-up"
+              },
+              {
+                "distance": "5.2 mi",
+                "intensity": "5 × 3 min at I pace"
+              },
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "6.7 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.3 mi",
+            "intensity": "E pace with 6 × 20 sec strides"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.3 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.4 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "name": "Q1 Long E — 17 mi",
+            "type": "long run",
+            "distance": "17 mi",
+            "intensity": "E pace"
+          }
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "phase": "Marathon Specific",
+      "total_mileage": "52 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.7 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "name": "Q2 T Repeats — 9 mi",
+            "type": "tempo",
+            "segments": [
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace warm-up"
+              },
+              {
+                "distance": "5.2 mi",
+                "intensity": "3 × 2 mi at T pace"
+              },
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "7.3 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.7 mi",
+            "intensity": "E pace with 6 × 20 sec strides"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.7 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.6 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "name": "Q1 T + M — 17 mi",
+            "type": "long run",
+            "segments": [
+              {
+                "distance": "4 mi",
+                "intensity": "E pace"
+              },
+              {
+                "distance": "9 mi",
+                "intensity": "3 × 2 mi at T, then 4 mi at M"
+              },
+              {
+                "distance": "4 mi",
+                "intensity": "E pace"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "phase": "Marathon Specific",
+      "total_mileage": "43 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.6 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "name": "Q2 T Repeats — 9 mi",
+            "type": "tempo",
+            "segments": [
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace warm-up"
+              },
+              {
+                "distance": "5.2 mi",
+                "intensity": "4 × 1 mi at T pace"
+              },
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "5.6 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.6 mi",
+            "intensity": "E pace with 6 × 20 sec strides"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.6 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.6 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "name": "Q1 Long E — 14 mi",
+            "type": "long run",
+            "distance": "14 mi",
+            "intensity": "E pace"
+          }
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "phase": "Taper + Race",
+      "total_mileage": "34 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "2 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "name": "Q2 T Maintenance — 9 mi",
+            "type": "tempo",
+            "segments": [
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace warm-up"
+              },
+              {
+                "distance": "5.2 mi",
+                "intensity": "3 × 1 mi at T pace"
+              },
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.1 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "distance": "2 mi",
+            "intensity": "E pace with 6 × 20 sec strides"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "2 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "1.9 mi",
+            "intensity": "E pace"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "name": "Q1 M Tune — 14 mi",
+            "type": "long run",
+            "segments": [
+              {
+                "distance": "4 mi",
+                "intensity": "E pace"
+              },
+              {
+                "distance": "6 mi",
+                "intensity": "6 mi at M pace"
+              },
+              {
+                "distance": "4 mi",
+                "intensity": "E pace"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "phase": "Taper + Race",
+      "total_mileage": "9 mi before race",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "rest"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "name": "Q2 E + Strides — 9 mi",
+            "type": "interval",
+            "segments": [
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace warm-up"
+              },
+              {
+                "distance": "5.2 mi",
+                "intensity": "Easy with 4 × 20 sec strides"
+              },
+              {
+                "distance": "1.9 mi",
+                "intensity": "E pace cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "rest"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "rest"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "rest"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "rest"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "name": "Goal Marathon",
+            "type": "race",
+            "distance": "26.2 mi",
+            "intensity": "Marathon race effort"
+          }
+        }
+      ]
+    }
+  ]
+}

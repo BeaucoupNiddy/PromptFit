@@ -1,0 +1,11 @@
+.git
+.venv
+dist
+__pycache__
+*.pyc
+.DS_Store
+Calendars
+fit_out_*
+confirmed_working_fit_from_previous_Version
+pdf_plans
+garmin_documentation*

@@ -1,0 +1,1081 @@
+{
+  "plan_meta": {
+    "title": "Pfitzinger-Method 10K — 12 Weeks, 30–42 mi/week",
+    "goal": "10k",
+    "race_distance": "10k",
+    "reference_peak_mileage": 42,
+    "summary": "Original 12-week 10K preset using the Faster Road Racing framework at the book's 30–42 mi/week band.",
+    "notes": "Original compatible implementation—not a transcription of the proprietary schedule. It follows Pfitzinger-style periodization with endurance, lactate-threshold, VO2max, speed, tune-up, and taper work. Use Faster Road Racing for the authors’ exact schedule and pacing guidance.",
+    "source_title": "Faster Road Racing: 5K to Half Marathon",
+    "source_url": "https://us.humankinetics.com/products/faster-road-racing-pdf",
+    "official_schedule": false,
+    "days_per_week": 7,
+    "explicit_warmups": true,
+    "normalize_weekly_to_reference": false,
+    "range_distance_preference": "midpoint"
+  },
+  "weeks": [
+    {
+      "week": 1,
+      "phase": "Base + Speed",
+      "total_mileage": "32 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "2 mi",
+            "intensity": "Recovery"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "name": "Hill repetitions — 6 mi",
+            "type": "interval",
+            "segments": [
+              {
+                "distance": "2.3 mi",
+                "intensity": "Very easy warm-up"
+              },
+              {
+                "distance": "1.4 mi",
+                "intensity": "8–12 × 12 sec hill sprints"
+              },
+              {
+                "distance": "2.3 mi",
+                "intensity": "Very easy cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "3 mi",
+            "intensity": "General aerobic"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "name": "Lactate Threshold — 6 mi",
+            "type": "tempo",
+            "segments": [
+              {
+                "distance": "1.5 mi",
+                "intensity": "Very easy warm-up"
+              },
+              {
+                "distance": "3 mi",
+                "intensity": "20 min continuous at LT pace"
+              },
+              {
+                "distance": "1.5 mi",
+                "intensity": "Very easy cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "3 mi",
+            "intensity": "Recovery"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "3 mi",
+            "intensity": "General aerobic with 6–10 × 100 m strides"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "long run",
+            "distance": "9 mi",
+            "intensity": "Endurance; finish moderately when fresh"
+          }
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "phase": "Base + Speed",
+      "total_mileage": "34 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "2.3 mi",
+            "intensity": "Recovery"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "name": "Cruise intervals — 6 mi",
+            "type": "interval",
+            "segments": [
+              {
+                "distance": "1 mi",
+                "intensity": "Very easy warm-up"
+              },
+              {
+                "distance": "4 mi",
+                "intensity": "4 × 1 mi at lactate-threshold pace"
+              },
+              {
+                "distance": "1 mi",
+                "intensity": "Very easy cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.5 mi",
+            "intensity": "General aerobic"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "name": "Progression — 6 mi",
+            "type": "interval",
+            "segments": [
+              {
+                "distance": "1 mi",
+                "intensity": "Very easy warm-up"
+              },
+              {
+                "distance": "4 mi",
+                "intensity": "Finish final 4 mi at steady-to-LT effort"
+              },
+              {
+                "distance": "1 mi",
+                "intensity": "Very easy cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.5 mi",
+            "intensity": "Recovery"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.7 mi",
+            "intensity": "General aerobic with 6–10 × 100 m strides"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "long run",
+            "distance": "9 mi",
+            "intensity": "Endurance; finish moderately when fresh"
+          }
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "phase": "Base + Speed",
+      "total_mileage": "36 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "2.7 mi",
+            "intensity": "Recovery"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "name": "VO2max intervals — 6 mi",
+            "type": "interval",
+            "segments": [
+              {
+                "distance": "1.8 mi",
+                "intensity": "Very easy warm-up"
+              },
+              {
+                "distance": "2.4 mi",
+                "intensity": "5 × 800 m at 5K pace"
+              },
+              {
+                "distance": "1.8 mi",
+                "intensity": "Very easy cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.1 mi",
+            "intensity": "General aerobic"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "name": "Lactate Threshold — 6 mi",
+            "type": "tempo",
+            "segments": [
+              {
+                "distance": "1.3 mi",
+                "intensity": "Very easy warm-up"
+              },
+              {
+                "distance": "3.4 mi",
+                "intensity": "3 × 8 min at LT pace"
+              },
+              {
+                "distance": "1.3 mi",
+                "intensity": "Very easy cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.1 mi",
+            "intensity": "Recovery"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.1 mi",
+            "intensity": "General aerobic with 6–10 × 100 m strides"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "long run",
+            "distance": "9 mi",
+            "intensity": "Endurance; finish moderately when fresh"
+          }
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "phase": "Race Preparation",
+      "total_mileage": "33 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "name": "Recovery",
+            "type": "very easy",
+            "distance": "1.8 mi",
+            "intensity": "Recovery"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "name": "Threshold intervals — 6 mi",
+            "type": "tempo",
+            "segments": [
+              {
+                "distance": "1.2 mi",
+                "intensity": "Very easy warm-up"
+              },
+              {
+                "distance": "3.6 mi",
+                "intensity": "3 × 2 km at 10K-to-threshold effort"
+              },
+              {
+                "distance": "1.2 mi",
+                "intensity": "Very easy cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "2.7 mi",
+            "intensity": "General aerobic"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "name": "Progression — 6 mi",
+            "type": "interval",
+            "segments": [
+              {
+                "distance": "1 mi",
+                "intensity": "Very easy warm-up"
+              },
+              {
+                "distance": "4 mi",
+                "intensity": "Finish final 5 mi at steady-to-LT effort"
+              },
+              {
+                "distance": "1 mi",
+                "intensity": "Very easy cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "2.7 mi",
+            "intensity": "Recovery"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "2.8 mi",
+            "intensity": "General aerobic with 6–10 × 100 m strides"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "long run",
+            "distance": "11 mi",
+            "intensity": "Endurance; finish moderately when fresh"
+          }
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "phase": "Race Preparation",
+      "total_mileage": "38 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "2.7 mi",
+            "intensity": "Recovery"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "name": "Tune-up race — 6 mi",
+            "type": "interval",
+            "segments": [
+              {
+                "distance": "1.5 mi",
+                "intensity": "Very easy warm-up"
+              },
+              {
+                "distance": "3 mi",
+                "intensity": "5K tune-up race"
+              },
+              {
+                "distance": "1.5 mi",
+                "intensity": "Very easy cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.1 mi",
+            "intensity": "General aerobic"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "name": "Aerobic support — 6 mi",
+            "type": "interval",
+            "segments": [
+              {
+                "distance": "2.5 mi",
+                "intensity": "Very easy warm-up"
+              },
+              {
+                "distance": "1 mi",
+                "intensity": "General aerobic with 8 × 100 m strides"
+              },
+              {
+                "distance": "2.5 mi",
+                "intensity": "Very easy cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.1 mi",
+            "intensity": "Recovery"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.1 mi",
+            "intensity": "General aerobic with 6–10 × 100 m strides"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "long run",
+            "distance": "11 mi",
+            "intensity": "Endurance; finish moderately when fresh"
+          }
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "phase": "Race Preparation",
+      "total_mileage": "39 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "2.9 mi",
+            "intensity": "Recovery"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "name": "VO2max intervals — 6 mi",
+            "type": "interval",
+            "segments": [
+              {
+                "distance": "1.2 mi",
+                "intensity": "Very easy warm-up"
+              },
+              {
+                "distance": "3.6 mi",
+                "intensity": "6 × 1,000 m at 5K pace"
+              },
+              {
+                "distance": "1.2 mi",
+                "intensity": "Very easy cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.3 mi",
+            "intensity": "General aerobic"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "name": "Lactate Threshold — 6 mi",
+            "type": "tempo",
+            "segments": [
+              {
+                "distance": "1 mi",
+                "intensity": "Very easy warm-up"
+              },
+              {
+                "distance": "4 mi",
+                "intensity": "25–30 min continuous at LT pace"
+              },
+              {
+                "distance": "1 mi",
+                "intensity": "Very easy cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.3 mi",
+            "intensity": "Recovery"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.5 mi",
+            "intensity": "General aerobic with 6–10 × 100 m strides"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "long run",
+            "distance": "11 mi",
+            "intensity": "Endurance; finish moderately when fresh"
+          }
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "phase": "Race Preparation",
+      "total_mileage": "35 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "2.2 mi",
+            "intensity": "Recovery"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "name": "Cruise intervals — 6 mi",
+            "type": "interval",
+            "segments": [
+              {
+                "distance": "1 mi",
+                "intensity": "Very easy warm-up"
+              },
+              {
+                "distance": "4 mi",
+                "intensity": "5 × 1 mi at lactate-threshold pace"
+              },
+              {
+                "distance": "1 mi",
+                "intensity": "Very easy cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.2 mi",
+            "intensity": "General aerobic"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "name": "Progression — 6 mi",
+            "type": "interval",
+            "segments": [
+              {
+                "distance": "1 mi",
+                "intensity": "Very easy warm-up"
+              },
+              {
+                "distance": "4 mi",
+                "intensity": "Finish final 5 mi at steady-to-LT effort"
+              },
+              {
+                "distance": "1 mi",
+                "intensity": "Very easy cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.2 mi",
+            "intensity": "Recovery"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.4 mi",
+            "intensity": "General aerobic with 6–10 × 100 m strides"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "long run",
+            "distance": "11 mi",
+            "intensity": "Endurance; finish moderately when fresh"
+          }
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "phase": "Specific Preparation",
+      "total_mileage": "42 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.4 mi",
+            "intensity": "Recovery"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "name": "Tune-up race — 6 mi",
+            "type": "interval",
+            "segments": [
+              {
+                "distance": "1 mi",
+                "intensity": "Very easy warm-up"
+              },
+              {
+                "distance": "4 mi",
+                "intensity": "8K tune-up race"
+              },
+              {
+                "distance": "1 mi",
+                "intensity": "Very easy cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "5.1 mi",
+            "intensity": "General aerobic"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "name": "Aerobic support — 6 mi",
+            "type": "interval",
+            "segments": [
+              {
+                "distance": "2.5 mi",
+                "intensity": "Very easy warm-up"
+              },
+              {
+                "distance": "1 mi",
+                "intensity": "General aerobic with 8 × 100 m strides"
+              },
+              {
+                "distance": "2.5 mi",
+                "intensity": "Very easy cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "5.1 mi",
+            "intensity": "Recovery"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "5.4 mi",
+            "intensity": "General aerobic with 6–10 × 100 m strides"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "long run",
+            "distance": "11 mi",
+            "intensity": "Endurance; finish moderately when fresh"
+          }
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "phase": "Specific Preparation",
+      "total_mileage": "39 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "2.9 mi",
+            "intensity": "Recovery"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "name": "10K pace intervals — 6 mi",
+            "type": "interval",
+            "segments": [
+              {
+                "distance": "1 mi",
+                "intensity": "Very easy warm-up"
+              },
+              {
+                "distance": "4 mi",
+                "intensity": "4 × 1 mi at 10K pace"
+              },
+              {
+                "distance": "1 mi",
+                "intensity": "Very easy cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.3 mi",
+            "intensity": "General aerobic"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "name": "Lactate Threshold — 6 mi",
+            "type": "tempo",
+            "segments": [
+              {
+                "distance": "1 mi",
+                "intensity": "Very easy warm-up"
+              },
+              {
+                "distance": "4 mi",
+                "intensity": "4 × 1 mi at LT pace"
+              },
+              {
+                "distance": "1 mi",
+                "intensity": "Very easy cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.3 mi",
+            "intensity": "Recovery"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.5 mi",
+            "intensity": "General aerobic with 6–10 × 100 m strides"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "long run",
+            "distance": "11 mi",
+            "intensity": "Endurance; finish moderately when fresh"
+          }
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "phase": "Specific Preparation",
+      "total_mileage": "36 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "2.7 mi",
+            "intensity": "Recovery"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "name": "Race sharpening — 6 mi",
+            "type": "interval",
+            "segments": [
+              {
+                "distance": "1.5 mi",
+                "intensity": "Very easy warm-up"
+              },
+              {
+                "distance": "3 mi",
+                "intensity": "6 × 800 m at 5K pace"
+              },
+              {
+                "distance": "1.5 mi",
+                "intensity": "Very easy cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.1 mi",
+            "intensity": "General aerobic"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "name": "10K pace — 6 mi",
+            "type": "interval",
+            "segments": [
+              {
+                "distance": "1.5 mi",
+                "intensity": "Very easy warm-up"
+              },
+              {
+                "distance": "3 mi",
+                "intensity": "3 × 1 mi at 10K pace"
+              },
+              {
+                "distance": "1.5 mi",
+                "intensity": "Very easy cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.1 mi",
+            "intensity": "Recovery"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.1 mi",
+            "intensity": "General aerobic with 6–10 × 100 m strides"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "long run",
+            "distance": "9 mi",
+            "intensity": "Endurance; finish moderately when fresh"
+          }
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "phase": "Taper + Race",
+      "total_mileage": "32 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "2 mi",
+            "intensity": "Recovery"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "name": "Threshold maintenance — 6 mi",
+            "type": "tempo",
+            "segments": [
+              {
+                "distance": "1.5 mi",
+                "intensity": "Very easy warm-up"
+              },
+              {
+                "distance": "3 mi",
+                "intensity": "3 × 1 mi at lactate-threshold pace"
+              },
+              {
+                "distance": "1.5 mi",
+                "intensity": "Very easy cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "3 mi",
+            "intensity": "General aerobic"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "name": "Lactate Threshold — 6 mi",
+            "type": "tempo",
+            "segments": [
+              {
+                "distance": "1.5 mi",
+                "intensity": "Very easy warm-up"
+              },
+              {
+                "distance": "3 mi",
+                "intensity": "20 min controlled at LT pace"
+              },
+              {
+                "distance": "1.5 mi",
+                "intensity": "Very easy cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "3 mi",
+            "intensity": "Recovery"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "3 mi",
+            "intensity": "General aerobic with 6–10 × 100 m strides"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "long run",
+            "distance": "9 mi",
+            "intensity": "Endurance; finish moderately when fresh"
+          }
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "phase": "Taper + Race",
+      "total_mileage": "29 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "name": "Recovery",
+            "type": "very easy",
+            "distance": "1.4 mi",
+            "intensity": "Recovery"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "name": "Race primer — 6 mi",
+            "type": "interval",
+            "segments": [
+              {
+                "distance": "2.5 mi",
+                "intensity": "Very easy warm-up"
+              },
+              {
+                "distance": "1 mi",
+                "intensity": "4 × 200 m relaxed and fast"
+              },
+              {
+                "distance": "2.5 mi",
+                "intensity": "Very easy cool-down"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "2.1 mi",
+            "intensity": "General aerobic"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "name": "Goal 10K Race",
+            "type": "race",
+            "segments": [
+              {
+                "distance": "6.2 mi",
+                "intensity": "10K race effort"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "2.1 mi",
+            "intensity": "Recovery"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "2.2 mi",
+            "intensity": "General aerobic with 6–10 × 100 m strides"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "long run",
+            "distance": "9 mi",
+            "intensity": "Endurance; finish moderately when fresh"
+          }
+        }
+      ]
+    }
+  ]
+}

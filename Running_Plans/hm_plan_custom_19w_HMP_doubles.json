@@ -1,0 +1,2361 @@
+{
+  "plan_meta": {
+    "source": "User-specified 19-week HM plan with doubles",
+    "notes": "Doubles are represented with 'am'/'pm'. Optional doubles use 'optional': true on that session. Intensities normalized to % of HMP for correct time/mileage. Kenyan-style progression runs marked as their own type. Plan includes explicit warm-ups/cool-downs for most workouts.",
+    "goal": "Half Marathon",
+    "current_HMP": "7:10/mi",
+    "peak_mileage": "varies by week",
+    "reference_peak_mileage": 93,
+    "explicit_warmups": true,
+    "structure": "Extended base + race-supportive + race-specific + tune/taper",
+    "days_per_week": "7 (doubles as specified)",
+    "intensity_format": "% of HMP",
+    "title": "Half Marathon 19-week (doubles)",
+    "summary": "19-week half marathon plan with doubles and explicit warmups/cooldowns. Intensities are % of HMP.",
+    "race_distance": "half marathon"
+  },
+  "weeks": [
+    {
+      "week": 1,
+      "phase": "General",
+      "total_mileage": "62 mi (target)",
+      "notes": "Week 1 Total - 62 mi\n\n8 mi Kenyan-style progression run to ~eventual 98% HMP\n\n70\u2019 easy to moderate \n\n20\u2019 warmup\n8 x 2\u2019 fast (110% HMP pace) with 3\u2019 easy jog recovery between reps\n15\u2019 cooldown\n\n70\u2019 very easy \n\nAM 30\u2019 moderate\nPM 25\u2019 strong\n\n15\u2019 warmup\n8 x 3\u2019 at threshold effort w/ 1\u2019 jog recovery\n15\u2019 cooldown\n\n45\u2019 easy",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "kenyan-style progression run",
+            "distance": "8 miles",
+            "intensity": "Progression to ~98% of HMP"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "type": "easy to moderate",
+            "segments": [
+              {
+                "duration": "35 min",
+                "intensity": "75% of HMP"
+              },
+              {
+                "duration": "35 min",
+                "intensity": "85% of HMP"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "duration": "20 min",
+                "intensity": "Very easy"
+              },
+              {
+                "sets": [
+                  {
+                    "repetitions": 8,
+                    "duration": "2 min",
+                    "intensity": "110% of HMP",
+                    "recovery": {
+                      "type": "jog",
+                      "duration": "3 min"
+                    }
+                  }
+                ]
+              },
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "duration": "70 min",
+            "intensity": "Very easy"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "am": {
+              "type": "steady",
+              "duration": "30 min",
+              "intensity": "88% of HMP"
+            },
+            "pm": {
+              "type": "steady",
+              "duration": "25 min",
+              "intensity": "92% of HMP"
+            }
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              },
+              {
+                "sets": [
+                  {
+                    "repetitions": 8,
+                    "duration": "3 min",
+                    "intensity": "100\u2013102% of HMP",
+                    "recovery": {
+                      "type": "jog",
+                      "duration": "1 min"
+                    }
+                  }
+                ]
+              },
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "easy",
+            "duration": "45 min",
+            "intensity": "Easy"
+          }
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "phase": "General",
+      "total_mileage": "70 mi (target)",
+      "notes": "Week 2 total 70 mi\n\nAM 54\u2019 easy to moderate\n\nPM 25\u2019 strong (85% HMP)\n\n15\u2019 warmup\n12 x 2\u2019 at 105% HMP effort w/ 45\u201d jog recovery\n15\u2019 cooldown\n\n76\u2019 easy \n\n15\u2019 warmup\n10\u2019-8\u2019-8\u2019 at threshold effort 100-102% HMP w/ 2\u2019 jog recovery\n15\u2019 cooldown\n\n60\u2019 easy \n\n14 mi stepwise\n5 mi easy-5 moderate-4 mi at 95% HMP(8-8-6.4k)\n\n44\u2019 easy",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "am": {
+              "type": "easy",
+              "duration": "54 min",
+              "intensity": "Easy to Moderate (80\u201385% of HMP)"
+            },
+            "pm": {
+              "type": "steady",
+              "duration": "25 min",
+              "intensity": "85% of HMP"
+            }
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              },
+              {
+                "sets": [
+                  {
+                    "repetitions": 12,
+                    "duration": "2 min",
+                    "intensity": "105% of HMP",
+                    "recovery": {
+                      "type": "jog",
+                      "duration": "45 sec"
+                    }
+                  }
+                ]
+              },
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "duration": "76 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              },
+              {
+                "sets": [
+                  {
+                    "repetitions": 1,
+                    "duration": "10 min",
+                    "intensity": "100\u2013102% of HMP",
+                    "recovery": {
+                      "type": "jog",
+                      "duration": "2 min"
+                    }
+                  },
+                  {
+                    "repetitions": 1,
+                    "duration": "8 min",
+                    "intensity": "100\u2013102% of HMP",
+                    "recovery": {
+                      "type": "jog",
+                      "duration": "2 min"
+                    }
+                  },
+                  {
+                    "repetitions": 1,
+                    "duration": "8 min",
+                    "intensity": "100\u2013102% of HMP"
+                  }
+                ]
+              },
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "duration": "60 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy to moderate",
+            "segments": [
+              {
+                "distance": "5 miles",
+                "intensity": "75% of HMP"
+              },
+              {
+                "distance": "5 miles",
+                "intensity": "82\u201385% of HMP"
+              },
+              {
+                "distance": "4 miles",
+                "intensity": "95% of HMP"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "easy",
+            "duration": "44 min",
+            "intensity": "Easy"
+          }
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "phase": "General",
+      "total_mileage": "auto",
+      "notes": "Week 3 - miles undefined/calculate\n\n15\u2019 warmup\n7 mi at ~95% current HMP\n15\u2019 cooldown\n\n70\u2019 easy \n\n20\u2019 warmup\n10 x 2\u2019 fast 108-110% HMP / easy 2 min jog recovery\n15\u2019 cooldown\n\n70\u2019 easy\n\n30\u2019 easy\n\n8 mi kenyan-style progression long run\n\n60\u2019 easy",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "tempo",
+            "segments": [
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              },
+              {
+                "distance": "7 miles",
+                "intensity": "95% of HMP (continuous)"
+              },
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "type": "easy",
+            "duration": "70 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "duration": "20 min",
+                "intensity": "Very easy"
+              },
+              {
+                "sets": [
+                  {
+                    "repetitions": 10,
+                    "duration": "2 min",
+                    "intensity": "108\u2013110% of HMP",
+                    "recovery": {
+                      "type": "jog",
+                      "duration": "2 min"
+                    }
+                  }
+                ]
+              },
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "duration": "70 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "duration": "30 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "long run",
+            "distance": "8 miles",
+            "intensity": "Kenyan-style progression to ~95% of HMP"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "easy",
+            "duration": "90 min",
+            "intensity": "Easy"
+          }
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "phase": "General",
+      "total_mileage": "auto",
+      "notes": "Week 4 - miles undefined/calculate with AI or algorithm\n\n30\u2019 easy\n\n55\u2019 easy \n\n15\u2019 warmup\n6k @ 105% HMP (race/simulation)\n15\u2019 cooldown\n\nRest \n\n40\u2019 easy\n\n70\u2019 easy \n\n15\u2019 warmup\n8 mi at ~95% current\nHMP \n15\u2019 cooldown",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "duration": "70 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "type": "easy",
+            "duration": "55 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "tempo",
+            "segments": [
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              },
+              {
+                "distance": "6 km",
+                "intensity": "105% of HMP (simulation)"
+              },
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "rest"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "duration": "80 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "duration": "70 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "tempo",
+            "segments": [
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              },
+              {
+                "distance": "8 miles",
+                "intensity": "95% of HMP (continuous)"
+              },
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "phase": "Race-Supportive",
+      "total_mileage": "79 mi (target)",
+      "notes": "Week 5 - total 79 miles\n\n80\u2019 easy\n\n70\u2019 easy to moderate \n\n60\u2019 easy\n40\u2019 with 2k + 2k x 1k at\n~105% current HMP /\n\n67\u2019 very easy \n\n68\u2019 easy to moderate\n30\u2019 strong\n\n15\u2019 warmup\n10 mi at\n93% HMP ,\n15\u2019 cooldown\n\n48\u2019 very easy",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "duration": "80 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "type": "easy to moderate",
+            "segments": [
+              {
+                "duration": "35 min",
+                "intensity": "75% of HMP"
+              },
+              {
+                "duration": "35 min",
+                "intensity": "85% of HMP"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "am": {
+              "type": "easy",
+              "duration": "60 min",
+              "intensity": "Easy"
+            },
+            "pm": {
+              "type": "interval",
+              "segments": [
+                {
+                  "duration": "15 min",
+                  "intensity": "Very easy"
+                },
+                {
+                  "sets": [
+                    {
+                      "repetitions": 1,
+                      "distance": "2 km",
+                      "intensity": "100% of HMP"
+                    },
+                    {
+                      "repetitions": 1,
+                      "distance": "2 km",
+                      "intensity": "100% of HMP"
+                    },
+                    {
+                      "repetitions": 1,
+                      "distance": "1 km",
+                      "intensity": "100% of HMP"
+                    }
+                  ]
+                },
+                {
+                  "duration": "15 min",
+                  "intensity": "Very easy"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "duration": "67 min",
+            "intensity": "Very easy"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "am": {
+              "type": "easy to moderate",
+              "segments": [
+                {
+                  "duration": "40 min",
+                  "intensity": "75\u201382% of HMP"
+                },
+                {
+                  "duration": "28 min",
+                  "intensity": "85% of HMP"
+                }
+              ]
+            },
+            "pm": {
+              "type": "steady",
+              "duration": "30 min",
+              "intensity": "92% of HMP"
+            }
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "tempo",
+            "segments": [
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              },
+              {
+                "distance": "10 miles",
+                "intensity": "93% of HMP (continuous)"
+              },
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "easy",
+            "duration": "48 min",
+            "intensity": "Very easy"
+          }
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "phase": "Race-Supportive",
+      "total_mileage": "74 mi (target)",
+      "notes": "Week 6 - 74 miles\n\nAM 35\u2019 moderate\nPM 35\u2019 strong\n\n70\u2019 easy \n\n10\u2019 warmup\n6 x 1 km at 98% HMP w/ 1\u2019 walk\n5\u2019 rest\n12x500m ~103% current HMP w/ 30\u201d walk recovery\n5\u2019 cooldown\n\n70\u2019 easy \n\n75\u2019 easy \n\n15\u2019 warmup\n3 x 2 mi at 101% current HMP w/ 2\u2019 walk recovery\n15\u2019 cooldown\n\n60\u2019 easy",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "am": {
+              "type": "steady",
+              "duration": "35 min",
+              "intensity": "88% of HMP"
+            },
+            "pm": {
+              "type": "steady",
+              "duration": "35 min",
+              "intensity": "92% of HMP"
+            }
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "type": "easy",
+            "duration": "70 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "am": {
+              "type": "interval",
+              "segments": [
+                {
+                  "duration": "10 min",
+                  "intensity": "Very easy"
+                },
+                {
+                  "sets": [
+                    {
+                      "repetitions": 6,
+                      "distance": "1 km",
+                      "intensity": "98% of HMP",
+                      "recovery": {
+                        "type": "walk",
+                        "duration": "1 min"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "duration": "5 min",
+                  "intensity": "Very easy"
+                }
+              ]
+            },
+            "pm": {
+              "type": "interval",
+              "segments": [
+                {
+                  "duration": "10 min",
+                  "intensity": "Very easy"
+                },
+                {
+                  "sets": [
+                    {
+                      "repetitions": 12,
+                      "distance": "500 meters",
+                      "intensity": "103% of HMP",
+                      "recovery": {
+                        "type": "walk",
+                        "duration": "30 sec"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "duration": "5 min",
+                  "intensity": "Very easy"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "duration": "70 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "duration": "75 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              },
+              {
+                "sets": [
+                  {
+                    "repetitions": 3,
+                    "distance": "2 miles",
+                    "intensity": "101% of HMP",
+                    "recovery": {
+                      "type": "walk",
+                      "duration": "2 min"
+                    }
+                  }
+                ]
+              },
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "easy",
+            "duration": "60 min",
+            "intensity": "Easy"
+          }
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "phase": "Race-Supportive",
+      "total_mileage": "70 mi (target)",
+      "notes": "Week 7 - 70 miles\n\nAM 60\u2019 easy - PM 45\u2019 moderate to strong\n\n60\u2019 easy \n\n15\u2019 warmup\n1-3-2-1-1k at 101 >> scaled reps 105% HPM w/ 2\u2019 walk\n15\u2019 cooldown\n\n73\u2019 easy to moderate \n\n80\u2019 moderate \n\nRest \n\n80\u2019 easy",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "am": {
+              "type": "easy",
+              "duration": "60 min",
+              "intensity": "Easy"
+            },
+            "pm": {
+              "type": "steady",
+              "duration": "45 min",
+              "intensity": "90\u201392% of HMP"
+            }
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "type": "easy",
+            "duration": "60 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              },
+              {
+                "sets": [
+                  {
+                    "repetitions": 1,
+                    "distance": "1 km",
+                    "intensity": "101% of HMP",
+                    "recovery": {
+                      "type": "walk",
+                      "duration": "2 min"
+                    }
+                  },
+                  {
+                    "repetitions": 1,
+                    "distance": "3 km",
+                    "intensity": "103\u2013105% of HMP",
+                    "recovery": {
+                      "type": "walk",
+                      "duration": "2 min"
+                    }
+                  },
+                  {
+                    "repetitions": 1,
+                    "distance": "2 km",
+                    "intensity": "102\u2013103% of HMP",
+                    "recovery": {
+                      "type": "walk",
+                      "duration": "2 min"
+                    }
+                  },
+                  {
+                    "repetitions": 1,
+                    "distance": "1 km",
+                    "intensity": "101% of HMP"
+                  }
+                ]
+              },
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "duration": "73 min",
+            "intensity": "Easy to Moderate (80\u201385% of HMP)"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "steady",
+            "duration": "80 min",
+            "intensity": "90% of HMP"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "duration": "70 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "easy",
+            "duration": "80 min",
+            "intensity": "Easy"
+          }
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "phase": "Race-Supportive",
+      "total_mileage": "77 mi (target)",
+      "notes": "Week 8 - 77 miles\n\n48\u2019 easy \n\n15\u2019 warmup\n12 mi at ~95% HMP \n15\u2019 cooldown\n\n70\u2019 easy \n\n75\u2019 easy to moderate \n\n95\u2019 easy to moderate \n\n15\u2019 easy\n3-3-2 mi ~101% w/ 4\u2019 walk/jog recovery\n8\u2019 cooldown\n\n72\u2019 easy",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "duration": "48 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "type": "tempo",
+            "segments": [
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              },
+              {
+                "distance": "12 miles",
+                "intensity": "95% of HMP (continuous)"
+              },
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "duration": "70 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy to moderate",
+            "segments": [
+              {
+                "duration": "35 min",
+                "intensity": "80% of HMP"
+              },
+              {
+                "duration": "40 min",
+                "intensity": "85% of HMP"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy to moderate",
+            "segments": [
+              {
+                "duration": "50 min",
+                "intensity": "80\u201385% of HMP"
+              },
+              {
+                "duration": "45 min",
+                "intensity": "85\u201388% of HMP"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "duration": "15 min",
+                "intensity": "Easy"
+              },
+              {
+                "sets": [
+                  {
+                    "repetitions": 1,
+                    "distance": "3 miles",
+                    "intensity": "101% of HMP",
+                    "recovery": {
+                      "type": "walk",
+                      "duration": "4 min"
+                    }
+                  },
+                  {
+                    "repetitions": 1,
+                    "distance": "3 miles",
+                    "intensity": "101% of HMP",
+                    "recovery": {
+                      "type": "walk",
+                      "duration": "4 min"
+                    }
+                  },
+                  {
+                    "repetitions": 1,
+                    "distance": "2 miles",
+                    "intensity": "101% of HMP",
+                    "recovery": {
+                      "type": "walk",
+                      "duration": "4 min"
+                    }
+                  }
+                ]
+              },
+              {
+                "duration": "8 min",
+                "intensity": "Very easy"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "easy",
+            "duration": "72 min",
+            "intensity": "Easy"
+          }
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "phase": "Race-Supportive",
+      "total_mileage": "73 mi (target)",
+      "notes": "Week 9 - 73 mi\n\n9 mi Kenyan-style progression run to ~95% HMP\n\n70\u2019 easy \n\n15\u2019 warmup\n2 x (10 x 500m) at 107% HMP w/ 25\u201d / 3\u2019 walk rest\n15\u2019 cooldown\n\n70\u2019 easy \n\n80\u2019 easy \n\n15\u2019 warmup\n9 mi at ~93% HMP\n15\u2019 cooldown\n\n64\u2019 very easy",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "kenyan-style progression run",
+            "distance": "9 miles",
+            "intensity": "Progression to ~95% of HMP"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "type": "easy",
+            "duration": "70 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              },
+              {
+                "sets": [
+                  {
+                    "repetitions": 1,
+                    "sequence": [
+                      {
+                        "repetitions": 10,
+                        "distance": "500 meters",
+                        "intensity": "107% of HMP",
+                        "recovery": {
+                          "type": "jog",
+                          "duration": "25 sec"
+                        }
+                      },
+                      {
+                        "duration": "3 min",
+                        "intensity": "Rest"
+                      }
+                    ]
+                  },
+                  {
+                    "repetitions": 1,
+                    "sequence": [
+                      {
+                        "repetitions": 10,
+                        "distance": "500 meters",
+                        "intensity": "107% of HMP",
+                        "recovery": {
+                          "type": "jog",
+                          "duration": "25 sec"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "duration": "70 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "duration": "80 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "tempo",
+            "segments": [
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              },
+              {
+                "distance": "9 miles",
+                "intensity": "93% of HMP (continuous)"
+              },
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "easy",
+            "duration": "64 min",
+            "intensity": "Very easy"
+          }
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "phase": "Race-Specific",
+      "total_mileage": "81 mi (target)",
+      "notes": "Week 10 - 81 miles\n\n67\u2019 easy \n\nAM - 30\u2019 easy \nPM 70\u2019 easy / moderate \n\n75\u2019 easy / moderate \n\n15\u2019 warmup\n7 sets of:\n2k at 102% HMP ,\n1k at 92% HMP\n15\u2019 cooldown\n\n65\u2019 easy \n\n92\u2019 very easy \n\n15\u2019 warmup\n8 x 800m at 108% HMP w/ 2.5\u2019 jog recovery\n15\u2019 cooldown",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "duration": "67 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "am": {
+              "type": "easy",
+              "duration": "30 min",
+              "intensity": "Easy"
+            },
+            "pm": {
+              "type": "easy",
+              "duration": "70 min",
+              "intensity": "Easy to Moderate (80\u201385% of HMP)"
+            }
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "duration": "75 min",
+            "intensity": "Easy to Moderate (80\u201385% of HMP)"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              },
+              {
+                "sets": [
+                  {
+                    "repetitions": 7,
+                    "sequence": [
+                      {
+                        "distance": "2 km",
+                        "intensity": "102% of HMP"
+                      },
+                      {
+                        "distance": "1 km",
+                        "intensity": "92% of HMP"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "duration": "65 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "duration": "92 min",
+            "intensity": "Very easy"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              },
+              {
+                "sets": [
+                  {
+                    "repetitions": 8,
+                    "distance": "800 meters",
+                    "intensity": "108% of HMP",
+                    "recovery": {
+                      "type": "jog",
+                      "duration": "2.5 min"
+                    }
+                  }
+                ]
+              },
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "phase": "Race-Specific",
+      "total_mileage": "71 mi (target)",
+      "notes": "Week 11 - 71 mi\n\n71\u2019 easy \n\n75\u2019 easy to moderate \n\n15\u2019 warmup\n6 x 4\u2019 at 103% HMP w/ 1\u2019 jog recovery\n15\u2019 cooldown\n\n70\u2019 easy \n\n60\u2019 easy \n\n40\u2019 easy \n\n15\u2019 warmup\nTest race - 13 mi at 100% HMP \n15\u2019 very easy cool down",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "duration": "71 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "type": "easy to moderate",
+            "segments": [
+              {
+                "duration": "35 min",
+                "intensity": "80% of HMP"
+              },
+              {
+                "duration": "40 min",
+                "intensity": "85% of HMP"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              },
+              {
+                "sets": [
+                  {
+                    "repetitions": 6,
+                    "duration": "4 min",
+                    "intensity": "103% of HMP",
+                    "recovery": {
+                      "type": "jog",
+                      "duration": "1 min"
+                    }
+                  }
+                ]
+              },
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "duration": "70 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "duration": "60 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "duration": "40 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "tempo",
+            "segments": [
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              },
+              {
+                "distance": "13 miles",
+                "intensity": "100% of HMP (test race)"
+              },
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "phase": "Race-Specific",
+      "total_mileage": "83 mi (target)",
+      "notes": "Week 12 - 83 mi\n\n52\u2019 very easy \n\n66\u2019 easy \n\n75\u2019 easy to moderate \n\n15\u2019 warmup\n8 x 1k cut-down 97 >> 103% HMP w/ 90\u201d jog\n15\u2019 cooldown\n\n73\u2019 easy \n\n115\u2019 easy to moderate (double optional)\n\n10\u2019 warmup\n15 mi at 91% HMP \n5\u2019 cooldown",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "duration": "52 min",
+            "intensity": "Very easy"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "type": "easy",
+            "duration": "66 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy to moderate",
+            "segments": [
+              {
+                "duration": "35 min",
+                "intensity": "80% of HMP"
+              },
+              {
+                "duration": "40 min",
+                "intensity": "85% of HMP"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              },
+              {
+                "sets": [
+                  {
+                    "repetitions": 8,
+                    "distance": "1 km",
+                    "intensity": "cut-down 97\u2013103% of HMP",
+                    "recovery": {
+                      "type": "jog",
+                      "duration": "90 sec"
+                    }
+                  }
+                ]
+              },
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "duration": "73 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "am": {
+              "type": "easy",
+              "duration": "75 min",
+              "intensity": "Easy to Moderate (80\u201385% of HMP)"
+            },
+            "pm": {
+              "type": "easy",
+              "duration": "40 min",
+              "intensity": "Easy to Moderate (80\u201385% of HMP)"
+            }
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "tempo",
+            "segments": [
+              {
+                "duration": "10 min",
+                "intensity": "Very easy"
+              },
+              {
+                "distance": "15 miles",
+                "intensity": "91% of HMP (continuous)"
+              },
+              {
+                "duration": "5 min",
+                "intensity": "Very easy"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "phase": "Race-Specific",
+      "total_mileage": "80 mi (target)",
+      "notes": "Week 13 - 80 mi\n\n45\u2019 very easy \n\n66\u2019 easy \n\nAM - 40\u2019 easy  \nPM - 70\u2019 w/ 5 sets of: 3-2-1\u2019 at ~100 >> 105% HMP w/ 1\u2019 moderate float\n\n60\u2019 easy \n\nAM 65\u2019 easy\nPM 41\u2019 Easy  (double optional)\n\nAM:  12\u2019 warmup - 6 mi at 92% HMP - 5\u2019 rest\nPM - 4 x 5\u2019  at 97% HMP w/ 1\u2019 jog - 5\u2019 cooldown\n\n60\u2019 easy",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "duration": "45 min",
+            "intensity": "Very easy"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "type": "easy",
+            "duration": "66 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "am": {
+              "type": "easy",
+              "duration": "40 min",
+              "intensity": "Easy",
+              "optional": true
+            },
+            "pm": {
+              "type": "interval",
+              "segments": [
+                {
+                  "duration": "15 min",
+                  "intensity": "Very easy"
+                },
+                {
+                  "sets": [
+                    {
+                      "repetitions": 5,
+                      "sequence": [
+                        {
+                          "duration": "3 min",
+                          "intensity": "100% of HMP"
+                        },
+                        {
+                          "duration": "2 min",
+                          "intensity": "102% of HMP"
+                        },
+                        {
+                          "duration": "1 min",
+                          "intensity": "105% of HMP"
+                        },
+                        {
+                          "duration": "1 min",
+                          "intensity": "90% of HMP"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "duration": "60 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "am": {
+              "type": "easy",
+              "duration": "72 min",
+              "intensity": "Easy to Moderate (80\u201385% of HMP)"
+            },
+            "pm": {
+              "type": "easy",
+              "duration": "38 min",
+              "intensity": "Easy to Moderate (80\u201385% of HMP)"
+            }
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "special block",
+            "am": {
+              "segments": [
+                {
+                  "duration": "12 min",
+                  "intensity": "Very easy"
+                },
+                {
+                  "distance": "6 miles",
+                  "intensity": "92% of HMP"
+                },
+                {
+                  "duration": "5 min",
+                  "intensity": "Rest"
+                }
+              ]
+            },
+            "pm": {
+              "segments": [
+                {
+                  "sets": [
+                    {
+                      "repetitions": 4,
+                      "duration": "5 min",
+                      "intensity": "97% of HMP",
+                      "recovery": {
+                        "type": "jog",
+                        "duration": "1 min"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "duration": "5 min",
+                  "intensity": "Very easy"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "easy",
+            "duration": "60 min",
+            "intensity": "Easy"
+          }
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "phase": "Race-Specific",
+      "total_mileage": "93 mi (target)",
+      "notes": "Week 14 - 93 mi\n\n75\u2019 easy \n\n107\u2019 easy (double optional)\n\n38\u2019 easy (AM run double optional)\n15\u2019 warmup\n3k at 104% HMP 3\u2019 rest. 2 x (6 x 500m) at 109% HMP w/ 45\u201d rest - 3\u2019 rest between sets\n15\u2019 cooldown\n\n66\u2019 very easy \n\n110\u2019 easy (double optional)\n\n15\u2019 warmup\n3 sets of: 3k-2k-1k at 97 >> 99% HMP w/ 1k float @ 83% HMP\n10\u2019 cooldown\n\n55\u2019 very easy",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "duration": "75 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "am": {
+              "type": "easy",
+              "duration": "70 min",
+              "intensity": "Easy"
+            },
+            "pm": {
+              "type": "easy",
+              "duration": "37 min",
+              "intensity": "Easy"
+            }
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "am": {
+              "type": "easy",
+              "duration": "38 min",
+              "intensity": "Easy",
+              "optional": true
+            },
+            "pm": {
+              "type": "interval",
+              "segments": [
+                {
+                  "duration": "15 min",
+                  "intensity": "Very easy"
+                },
+                {
+                  "distance": "3 km",
+                  "intensity": "104% of HMP"
+                },
+                {
+                  "duration": "3 min",
+                  "intensity": "Rest"
+                },
+                {
+                  "sets": [
+                    {
+                      "repetitions": 12,
+                      "distance": "500 meters",
+                      "intensity": "109% of HMP",
+                      "recovery": {
+                        "type": "jog",
+                        "duration": "45 sec"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "duration": "15 min",
+                  "intensity": "Very easy"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "duration": "66 min",
+            "intensity": "Very easy"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "am": {
+              "type": "easy",
+              "duration": "72 min",
+              "intensity": "Easy"
+            },
+            "pm": {
+              "type": "easy",
+              "duration": "38 min",
+              "intensity": "Easy"
+            }
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              },
+              {
+                "sets": [
+                  {
+                    "repetitions": 1,
+                    "sequence": [
+                      {
+                        "distance": "3 km",
+                        "intensity": "97.5% of HMP"
+                      },
+                      {
+                        "distance": "1 km",
+                        "intensity": "80% of HMP"
+                      },
+                      {
+                        "distance": "2 km",
+                        "intensity": "98.5% of HMP"
+                      },
+                      {
+                        "distance": "1 km",
+                        "intensity": "80% of HMP"
+                      },
+                      {
+                        "distance": "1 km",
+                        "intensity": "99% of HMP"
+                      }
+                    ]
+                  },
+                  {
+                    "repetitions": 1,
+                    "duration": "5 min",
+                    "intensity": "Rest"
+                  },
+                  {
+                    "repetitions": 1,
+                    "sequence": [
+                      {
+                        "distance": "3 km",
+                        "intensity": "97.5% of HMP"
+                      },
+                      {
+                        "distance": "1 km",
+                        "intensity": "80% of HMP"
+                      },
+                      {
+                        "distance": "2 km",
+                        "intensity": "98.5% of HMP"
+                      },
+                      {
+                        "distance": "1 km",
+                        "intensity": "80% of HMP"
+                      },
+                      {
+                        "distance": "1 km",
+                        "intensity": "99% of HMP"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "duration": "10 min",
+                "intensity": "Very easy"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "easy",
+            "duration": "55 min",
+            "intensity": "Very easy"
+          }
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "phase": "Race-Specific",
+      "total_mileage": "80 mi (target)",
+      "notes": "Week 15 - 80 mi\n\n70\u2019 very easy \n\n110\u2019 easy (double optional)\n\n76\u2019 easy \n\n15\u2019 warmup\n4 x 1 mi at 105\u2013102% HMP 3\u2019 jog/walk recovery\n4k at 92% HMP\n\n70\u2019 easy \n\nAM 65\u2019 easy \nPm - 35\u2019 easy",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "duration": "70 min",
+            "intensity": "Very easy"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "am": {
+              "type": "easy",
+              "duration": "72 min",
+              "intensity": "Easy"
+            },
+            "pm": {
+              "type": "easy",
+              "duration": "38 min",
+              "intensity": "Easy"
+            }
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "duration": "76 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              },
+              {
+                "sets": [
+                  {
+                    "repetitions": 4,
+                    "distance": "1 mile",
+                    "intensity": "105\u2013102% of HMP",
+                    "recovery": {
+                      "type": "jog",
+                      "duration": "3 min"
+                    }
+                  },
+                  {
+                    "repetitions": 1,
+                    "distance": "4 km",
+                    "intensity": "92% of HMP"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "duration": "70 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "am": {
+              "type": "easy",
+              "duration": "72 min",
+              "intensity": "Easy"
+            },
+            "pm": {
+              "type": "easy",
+              "duration": "38 min",
+              "intensity": "Easy"
+            }
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "am": {
+              "type": "easy",
+              "duration": "59 min",
+              "intensity": "Easy"
+            },
+            "pm": {
+              "type": "easy",
+              "duration": "31 min",
+              "intensity": "Easy"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "phase": "Race-Specific",
+      "total_mileage": "90 mi (target)",
+      "notes": "Week 16 - 90 mi\n\n15\u2019 warmup\n5k @110% HMP (tune up race )\n15\u2019 cooldown\n32\u2019 easy (PM - double optional)\n\n67\u2019 easy \n\n15\u2019 warmup\n10 x 1k at 101% HMP w/ 30\u201d walk rest\n15\u2019 cooldown\n\n70\u2019 very easy \n\nAM 70\u2019 easy \nPM - 45\u2019 easy\n\n15\u2019 warmup\n15 mi at 94% HMP\n5\u2019 cooldown\n\nAM - 45\u2019 very easy \nPM - 45\u2019 very easy",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              },
+              {
+                "distance": "5 km",
+                "intensity": "110% of HMP (tune-up race)"
+              },
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "pm": {
+              "type": "easy",
+              "duration": "32 min",
+              "intensity": "Easy",
+              "optional": true
+            }
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "duration": "67 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              },
+              {
+                "sets": [
+                  {
+                    "repetitions": 10,
+                    "distance": "1 km",
+                    "intensity": "101% of HMP",
+                    "recovery": {
+                      "type": "walk",
+                      "duration": "30 sec"
+                    }
+                  }
+                ]
+              },
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "duration": "70 min",
+            "intensity": "Very easy"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "am": {
+              "type": "easy",
+              "duration": "70 min",
+              "intensity": "Easy"
+            },
+            "pm": {
+              "type": "easy",
+              "duration": "45 min",
+              "intensity": "Easy"
+            }
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "tempo",
+            "segments": [
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              },
+              {
+                "distance": "15 miles",
+                "intensity": "94% of HMP (continuous)"
+              },
+              {
+                "duration": "5 min",
+                "intensity": "Very easy"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "phase": "Race-Specific",
+      "total_mileage": "76 mi (target)",
+      "notes": "Week 17 - 76 mi\n\n70\u2019 easy \n\nAM 35\u2019 easy (AM double optional)\nPM 72\u2019 easy to moderate \n\n15\u2019 warmup\n6 x 500m at 103% HMP w/ 30\u201d walk\n3.5\u2019 rest\n3k at 93% HMP, 3.5\u2019 rest\n6x500m 105% HMP w/ 30\u201d walk recovery\n15\u2019 cooldown\n\n68\u2019 easy \n\n60\u2019 easy \n\n15\u2019 warmup\n4 sets of: (4k at 97% HMP, float recovery 1k at 78% HMP)\n10\u2019 cooldown\n\n53\u2019 very easy",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "duration": "70 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "am": {
+              "type": "easy",
+              "duration": "35 min",
+              "intensity": "Easy",
+              "optional": true
+            },
+            "pm": {
+              "type": "easy to moderate",
+              "segments": [
+                {
+                  "duration": "36 min",
+                  "intensity": "80\u201385% of HMP"
+                },
+                {
+                  "duration": "36 min",
+                  "intensity": "85\u201388% of HMP"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              },
+              {
+                "sets": [
+                  {
+                    "repetitions": 6,
+                    "distance": "500 meters",
+                    "intensity": "103% of HMP",
+                    "recovery": {
+                      "type": "walk",
+                      "duration": "30 sec"
+                    }
+                  },
+                  {
+                    "repetitions": 1,
+                    "distance": "3 km",
+                    "intensity": "93% of HMP",
+                    "recovery": {
+                      "type": "rest",
+                      "duration": "3.5 min"
+                    }
+                  },
+                  {
+                    "repetitions": 6,
+                    "distance": "500 meters",
+                    "intensity": "105% of HMP",
+                    "recovery": {
+                      "type": "walk",
+                      "duration": "30 sec"
+                    }
+                  }
+                ]
+              },
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "duration": "68 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "duration": "60 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              },
+              {
+                "sets": [
+                  {
+                    "repetitions": 4,
+                    "sequence": [
+                      {
+                        "distance": "4 km",
+                        "intensity": "97% of HMP"
+                      },
+                      {
+                        "distance": "1 km",
+                        "intensity": "78% of HMP"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "duration": "10 min",
+                "intensity": "Very easy"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "easy",
+            "duration": "53 min",
+            "intensity": "Very easy"
+          }
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "phase": "Race-Specific",
+      "total_mileage": "80 mi (target)",
+      "notes": "Week 18 - 80 mi\n\n70\u2019 easy \n\nAM - 31\u2019 easy \nPM - 70\u2019 easy to moderate\n\nAM: 10\u2019 warmup, 5mi at 95% HMP, 5\u2019 cooldown\nPM: 10\u2019 warmup, 5 x (1200m at 101%, 400m at 89% HMP) 5\u2019 cooldown\n\n65\u2019 easy \n\n30\u2019 easy (AM Optional)\n70\u2019 easy\n\n15\u2019 warmup\n16x500m at 104% HMPw/ 30\u201d walk\n15\u2019 cooldown\n\n56\u2019 easy",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "duration": "70 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "am": {
+              "type": "easy",
+              "duration": "31 min",
+              "intensity": "Easy",
+              "optional": true
+            },
+            "pm": {
+              "type": "easy to moderate",
+              "segments": [
+                {
+                  "duration": "35 min",
+                  "intensity": "80\u201385% of HMP"
+                },
+                {
+                  "duration": "35 min",
+                  "intensity": "85\u201388% of HMP"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "am": {
+              "type": "tempo",
+              "segments": [
+                {
+                  "duration": "10 min",
+                  "intensity": "Very easy"
+                },
+                {
+                  "distance": "5 miles",
+                  "intensity": "95% of HMP (continuous)"
+                },
+                {
+                  "duration": "5 min",
+                  "intensity": "Very easy"
+                }
+              ]
+            },
+            "pm": {
+              "type": "interval",
+              "segments": [
+                {
+                  "duration": "10 min",
+                  "intensity": "Very easy"
+                },
+                {
+                  "sets": [
+                    {
+                      "repetitions": 5,
+                      "sequence": [
+                        {
+                          "distance": "1200 meters",
+                          "intensity": "101% of HMP"
+                        },
+                        {
+                          "distance": "400 meters",
+                          "intensity": "89% of HMP"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "duration": "5 min",
+                  "intensity": "Very easy"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "duration": "65 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "am": {
+              "type": "easy",
+              "duration": "30 min",
+              "intensity": "Easy",
+              "optional": true
+            },
+            "pm": {
+              "type": "easy",
+              "duration": "70 min",
+              "intensity": "Easy"
+            }
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              },
+              {
+                "sets": [
+                  {
+                    "repetitions": 16,
+                    "distance": "500 meters",
+                    "intensity": "104% of HMP",
+                    "recovery": {
+                      "type": "walk",
+                      "duration": "30 sec"
+                    }
+                  }
+                ]
+              },
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "easy",
+            "duration": "56 min",
+            "intensity": "Easy"
+          }
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "phase": "Taper/Race",
+      "total_mileage": "45 mi (target)",
+      "notes": "Week 19 - 45 mi\n\n68\u2019 easy\n\n56\u2019 w/ 7 x (3\u2019 strong (95% HMP, 1\u2019 easy)\n\nRest\n\n50\u2019 easy \n\n40\u2019 easy \n\n15\u2019 warmup\nHM competition race 13.1 Mi @100% HMP\n\nRest",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "duration": "68 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "type": "interval",
+            "sets": [
+              {
+                "repetitions": 7,
+                "duration": "3 min",
+                "intensity": "95% of HMP",
+                "recovery": {
+                  "type": "jog",
+                  "duration": "1 min"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "rest"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "duration": "50 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "duration": "40 min",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "tempo",
+            "segments": [
+              {
+                "duration": "15 min",
+                "intensity": "Very easy"
+              },
+              {
+                "distance": "13.1 miles",
+                "intensity": "100% of HMP (HM competition race)"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "rest"
+          }
+        }
+      ]
+    }
+  ]
+}

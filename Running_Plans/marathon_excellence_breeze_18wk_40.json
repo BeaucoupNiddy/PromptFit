@@ -1,0 +1,1634 @@
+{
+  "plan_meta": {
+    "title": "Marathon Excellence Breeze 18-week (40 mi peak)",
+    "goal": "Marathon",
+    "race_distance": "marathon",
+    "reference_peak_mileage": 40,
+    "summary": "18-week Breeze plan with 3 key workouts per week. Easy mileage filled to match weekly totals.",
+    "notes": "Source: Marathon Excellence Breeze Plan (18-week). Intensities are % of 5K pace (weeks 1\u201310) and % of Marathon pace (weeks 11\u201318). Easy days added to match weekly mileage targets.",
+    "intensity_format": "% of 5K pace / % of Marathon pace",
+    "days_per_week": 7,
+    "explicit_warmups": false,
+    "normalize_weekly_to_reference": true,
+    "normalize_weekly_mode": "reduce_only",
+    "range_distance_preference": "midpoint"
+  },
+  "weeks": [
+    {
+      "week": 1,
+      "phase": "General",
+      "total_mileage": "25 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "1.5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "type": "kenyan-style progression run",
+            "distance": "5 mi",
+            "intensity": "Kenyan-style progression"
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "1.5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "sets": [
+                  {
+                    "repetitions": 10,
+                    "sequence": [
+                      {
+                        "duration": "1.5 min",
+                        "intensity": "100% of 5K pace",
+                        "recovery": {
+                          "duration": "1 min",
+                          "type": "jog"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "1.5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "1.5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "easy",
+            "distance": "10\u201311 mi",
+            "intensity": "Easy (hills)"
+          }
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "phase": "General",
+      "total_mileage": "29 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "2.5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "type": "kenyan-style progression run",
+            "distance": "5 mi",
+            "intensity": "Kenyan-style progression"
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "2 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "steady",
+            "distance": "4 mi",
+            "intensity": "85% of 5K pace"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "2 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "2 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "easy",
+            "distance": "11\u201312 mi",
+            "intensity": "Easy (hills)"
+          }
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "phase": "General",
+      "total_mileage": "33 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "sets": [
+                  {
+                    "repetitions": "6\u20137",
+                    "sequence": [
+                      {
+                        "duration": "3 min",
+                        "intensity": "90% of 5K pace",
+                        "recovery": {
+                          "duration": "1 min",
+                          "type": "jog"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "4 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "sets": [
+                  {
+                    "repetitions": 8,
+                    "sequence": [
+                      {
+                        "duration": "2 min",
+                        "intensity": "100% of 5K pace",
+                        "recovery": {
+                          "duration": "1.5 min",
+                          "type": "jog"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "4 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "4 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "steady",
+            "distance": "9 mi",
+            "intensity": "70\u201375% of 5K pace"
+          }
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "phase": "General",
+      "total_mileage": "30 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "type": "steady",
+            "distance": "5 mi",
+            "intensity": "85% of 5K pace"
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "distance": "4 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "4 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "4 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "kenyan-style progression run",
+            "distance": "6 mi",
+            "intensity": "Kenyan-style progression"
+          }
+        }
+      ],
+      "notes": "Revise fitness estimate at end of week."
+    },
+    {
+      "week": 5,
+      "phase": "General",
+      "total_mileage": "34 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "sets": [
+                  {
+                    "repetitions": "7\u20138",
+                    "sequence": [
+                      {
+                        "duration": "3 min",
+                        "intensity": "90\u201392% of 5K pace",
+                        "recovery": {
+                          "duration": "45 sec",
+                          "type": "jog"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "sets": [
+                  {
+                    "repetitions": 3,
+                    "sequence": [
+                      {
+                        "duration": "3 min",
+                        "intensity": "100% of 5K pace",
+                        "recovery": {
+                          "duration": "1.5 min",
+                          "type": "jog"
+                        }
+                      },
+                      {
+                        "duration": "2 min",
+                        "intensity": "102% of 5K pace",
+                        "recovery": {
+                          "duration": "3 min",
+                          "type": "jog"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "3 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "3 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "easy",
+            "distance": "13\u201314 mi",
+            "intensity": "Easy (hills)"
+          }
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "phase": "General",
+      "total_mileage": "37 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "sets": [
+                  {
+                    "repetitions": 6,
+                    "sequence": [
+                      {
+                        "distance": "500 m",
+                        "intensity": "95% of 5K pace",
+                        "recovery": {
+                          "duration": "30 sec",
+                          "type": "walk"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "duration": "4 min",
+                "intensity": "Walk"
+              },
+              {
+                "sets": [
+                  {
+                    "repetitions": 6,
+                    "sequence": [
+                      {
+                        "distance": "500 m",
+                        "intensity": "95% of 5K pace",
+                        "recovery": {
+                          "duration": "30 sec",
+                          "type": "walk"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "steady",
+            "distance": "6 mi",
+            "intensity": "85% of 5K pace"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "kenyan-style progression run",
+            "distance": "7 mi",
+            "intensity": "Kenyan-style progression"
+          }
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "phase": "General",
+      "total_mileage": "40 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "5.5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "sets": [
+                  {
+                    "repetitions": "4\u20135",
+                    "sequence": [
+                      {
+                        "duration": "5 min",
+                        "intensity": "90\u201392% of 5K pace",
+                        "recovery": {
+                          "duration": "1 min",
+                          "type": "jog"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "sets": [
+                  {
+                    "repetitions": 7,
+                    "sequence": [
+                      {
+                        "distance": "1 km",
+                        "intensity": "95% of 5K pace",
+                        "recovery": {
+                          "duration": "2 min",
+                          "type": "jog"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "steady",
+            "distance": "11\u201312 mi",
+            "intensity": "75\u201380% of 5K pace"
+          }
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "phase": "General",
+      "total_mileage": "36 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "sets": [
+                  {
+                    "repetitions": 3,
+                    "sequence": [
+                      {
+                        "duration": "3 min",
+                        "intensity": "98% of 5K pace",
+                        "recovery": {
+                          "duration": "1 min",
+                          "type": "jog"
+                        }
+                      },
+                      {
+                        "duration": "3 min",
+                        "intensity": "100\u2013102% of 5K pace",
+                        "recovery": {
+                          "duration": "4 min",
+                          "type": "walk/jog"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "distance": "3 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "3 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "3 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "easy",
+            "distance": "15\u201316 mi",
+            "intensity": "Easy (hills)"
+          }
+        }
+      ],
+      "notes": "Revise fitness estimate at end of week."
+    },
+    {
+      "week": 9,
+      "phase": "General",
+      "total_mileage": "40 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "6 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "sets": [
+                  {
+                    "repetitions": "4\u20135",
+                    "sequence": [
+                      {
+                        "distance": "1200 m",
+                        "intensity": "90\u201392% of 5K pace"
+                      },
+                      {
+                        "distance": "400 m",
+                        "intensity": "75% of 5K pace"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "6 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "distance": "5.5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "5.5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "5.5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "sets": [
+                  {
+                    "repetitions": "5\u20136",
+                    "sequence": [
+                      {
+                        "distance": "2 km",
+                        "intensity": "86\u201388% of 5K pace",
+                        "recovery": {
+                          "duration": "2 min",
+                          "type": "walk"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "phase": "General",
+      "total_mileage": "40 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "3 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "sets": [
+                  {
+                    "repetitions": 4,
+                    "sequence": [
+                      {
+                        "distance": "1.5 km",
+                        "intensity": "95% of 5K pace",
+                        "recovery": {
+                          "duration": "3\u20134 min",
+                          "type": "jog"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "3 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "steady",
+            "distance": "7\u20138 mi",
+            "intensity": "85% of 5K pace"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "3 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "3 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "easy",
+            "distance": "16\u201318 mi",
+            "intensity": "Easy (hills)"
+          }
+        }
+      ],
+      "notes": "Convert fitness estimate to marathon pace (% MP) before week 11."
+    },
+    {
+      "week": 11,
+      "phase": "Marathon-supportive",
+      "total_mileage": "40 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "sets": [
+                  {
+                    "repetitions": "3\u20134",
+                    "sequence": [
+                      {
+                        "distance": "1600 m",
+                        "intensity": "90\u201392% of 5K pace"
+                      },
+                      {
+                        "distance": "400 m",
+                        "intensity": "75% of 5K pace"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "kenyan-style progression run",
+            "distance": "6 mi",
+            "intensity": "Progression w/ fast finish"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "3.5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "steady",
+            "distance": "15\u201316 mi",
+            "intensity": "90\u201392% of Marathon pace"
+          }
+        }
+      ],
+      "notes": "Revise fitness estimate at end of week."
+    },
+    {
+      "week": 12,
+      "phase": "Marathon-supportive",
+      "total_mileage": "36 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "4 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "sets": [
+                  {
+                    "repetitions": 2,
+                    "sequence": [
+                      {
+                        "distance": "2 km",
+                        "intensity": "108% of Marathon pace",
+                        "recovery": {
+                          "duration": "3 min",
+                          "type": "jog"
+                        }
+                      },
+                      {
+                        "distance": "1 km",
+                        "intensity": "112% of Marathon pace",
+                        "recovery": {
+                          "duration": "4 min",
+                          "type": "jog"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "4 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "sets": [
+                  {
+                    "repetitions": "8\u20139",
+                    "sequence": [
+                      {
+                        "distance": "1 km",
+                        "intensity": "100\u2013102% of Marathon pace"
+                      },
+                      {
+                        "distance": "1 km",
+                        "intensity": "85% of Marathon pace"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "phase": "Marathon-supportive",
+      "total_mileage": "40 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "2.5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "sets": [
+                  {
+                    "repetitions": 7,
+                    "sequence": [
+                      {
+                        "distance": "1 km",
+                        "intensity": "105% of Marathon pace"
+                      },
+                      {
+                        "distance": "1 km",
+                        "intensity": "80% of Marathon pace"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "3 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "distance": "3 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "3 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "3 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "steady",
+            "distance": "16\u201318 mi",
+            "intensity": "90\u201392% of Marathon pace"
+          }
+        }
+      ],
+      "notes": "Revise fitness estimate at end of week."
+    },
+    {
+      "week": 14,
+      "phase": "Marathon-supportive",
+      "total_mileage": "40 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "sets": [
+                  {
+                    "repetitions": 3,
+                    "sequence": [
+                      {
+                        "distance": "2 km",
+                        "intensity": "108% of Marathon pace",
+                        "recovery": {
+                          "duration": "4 min",
+                          "type": "jog"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "distance": "1 km",
+                "intensity": "110\u2013112% of Marathon pace"
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "sets": [
+                  {
+                    "repetitions": 7,
+                    "sequence": [
+                      {
+                        "distance": "2 km",
+                        "intensity": "100% of Marathon pace"
+                      },
+                      {
+                        "distance": "1 km",
+                        "intensity": "85% of Marathon pace"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "phase": "Marathon-specific",
+      "total_mileage": "35\u201340 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "3 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "type": "steady",
+            "distance": "3.5\u20135 mi",
+            "intensity": "105% of Marathon pace"
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "2 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "distance": "3 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "3 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "3 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "progression",
+            "segments": [
+              {
+                "distance": "6 mi",
+                "intensity": "88% of Marathon pace"
+              },
+              {
+                "distance": "5 mi",
+                "intensity": "90% of Marathon pace"
+              },
+              {
+                "distance": "5 mi",
+                "intensity": "92% of Marathon pace"
+              },
+              {
+                "distance": "3\u20134 mi",
+                "intensity": "95% of Marathon pace"
+              }
+            ]
+          }
+        }
+      ],
+      "notes": "Revise fitness estimate at end of week."
+    },
+    {
+      "week": 16,
+      "phase": "Marathon-specific",
+      "total_mileage": "35\u201340 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "sets": [
+                  {
+                    "repetitions": "10\u201312",
+                    "sequence": [
+                      {
+                        "distance": "500 m",
+                        "intensity": "108\u2013110% of Marathon pace",
+                        "recovery": {
+                          "duration": "30\u201345 sec",
+                          "type": "walk"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "progression",
+            "segments": [
+              {
+                "distance": "5 km",
+                "intensity": "98\u2013102% of Marathon pace"
+              },
+              {
+                "distance": "1 km",
+                "intensity": "Easy"
+              },
+              {
+                "distance": "4 km",
+                "intensity": "98\u2013102% of Marathon pace"
+              },
+              {
+                "distance": "1 km",
+                "intensity": "Easy"
+              },
+              {
+                "distance": "3 km",
+                "intensity": "98\u2013102% of Marathon pace"
+              },
+              {
+                "distance": "1 km",
+                "intensity": "Easy"
+              },
+              {
+                "distance": "2 km",
+                "intensity": "98\u2013102% of Marathon pace"
+              },
+              {
+                "distance": "1 km",
+                "intensity": "Easy"
+              },
+              {
+                "distance": "1 km",
+                "intensity": "98\u2013102% of Marathon pace"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "phase": "Marathon-specific",
+      "total_mileage": "35\u201340 mi",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "4.5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "sets": [
+                  {
+                    "repetitions": 5,
+                    "sequence": [
+                      {
+                        "distance": "1 km",
+                        "intensity": "103% of Marathon pace"
+                      },
+                      {
+                        "distance": "1 km",
+                        "intensity": "85% of Marathon pace"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "distance": "5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "5 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "sets": [
+                  {
+                    "repetitions": "3\u20134",
+                    "sequence": [
+                      {
+                        "distance": "2 mi",
+                        "intensity": "100% of Marathon pace",
+                        "recovery": {
+                          "duration": "2\u20133 min",
+                          "type": "jog"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "phase": "Marathon-specific",
+      "total_mileage": "n/a",
+      "days": [
+        {
+          "day": "Monday",
+          "workout": {
+            "type": "easy",
+            "distance": "2\u20133 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Tuesday",
+          "workout": {
+            "type": "interval",
+            "segments": [
+              {
+                "sets": [
+                  {
+                    "repetitions": "5\u20136",
+                    "sequence": [
+                      {
+                        "duration": "3 min",
+                        "intensity": "103\u2013106% of Marathon pace",
+                        "recovery": {
+                          "duration": "1 min",
+                          "type": "jog"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "day": "Wednesday",
+          "workout": {
+            "type": "easy",
+            "distance": "2\u20133 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Thursday",
+          "workout": {
+            "type": "easy",
+            "distance": "2\u20133 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Friday",
+          "workout": {
+            "type": "easy",
+            "distance": "2\u20133 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Saturday",
+          "workout": {
+            "type": "easy",
+            "distance": "2\u20133 mi",
+            "intensity": "Easy"
+          }
+        },
+        {
+          "day": "Sunday",
+          "workout": {
+            "type": "race",
+            "distance": "26.2 mi",
+            "intensity": "Marathon"
+          }
+        }
+      ],
+      "notes": "Race week."
+    }
+  ]
+}
