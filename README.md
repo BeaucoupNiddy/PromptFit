@@ -8,6 +8,20 @@ it, adjust the steps if needed, and export it for your watch. PromptFit runs
 locally on your computer, and nothing is uploaded to Garmin unless you
 explicitly choose to send it.
 
+## See it in action
+
+### Build and review a workout
+
+![PromptFit quick-workout builder with a generated interval graph](screenshots/quick-workout.png)
+
+### Explore a complete training plan
+
+![PromptFit full-plan overview with weekly mileage and daily schedule](screenshots/full-plan-overview.png)
+
+### Review individual workouts before delivery
+
+![PromptFit workout details with pace graph and Garmin delivery controls](screenshots/workout-review.png)
+
 ## What you can do
 
 - Create a structured FIT workout from a written description.
